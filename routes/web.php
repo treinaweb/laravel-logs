@@ -19,7 +19,7 @@ Route::get('/', function () {
 
     echo Context::getHidden('chave_api');
 
-
+    // Log::debug("Realizando a importação dos registros do XML");
     // Log::info('O usuário acesso o recurso X');
     // Log::notice('A API integrada nesse sistema terá uma nova versão em breve');
     // Log::warning('Essa função será desabilitada na próxima versão');
